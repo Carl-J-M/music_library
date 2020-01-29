@@ -29,9 +29,10 @@ album1 = Album.new({
 album2 = Album.new({
   'title' => 'Album 2',
   'genre' => 'triphop',
-  'artist_id' => artist1.id
+  'artist_id' => artist2.id
   })
 
+  album2.update()
   album2.save()
 
 
